@@ -25,7 +25,8 @@ html, body {
   }
   .descripcion{
     padding-top: 20px;
-    margin: 0% 7%;
+    display: flex;
+    justify-content: center;
   }
   #game {
     text-align: center;
