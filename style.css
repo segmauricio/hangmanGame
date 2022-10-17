@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: rgb(106,28,28);
+    background: linear-gradient(180deg, rgba(106,28,28,1) 56%, rgba(23,15,17,1) 96%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',   
+    'Lucida Sans', Arial, sans-serif;
+    color: #FBEADD;
+  }
+  #title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 2rem;
+    border-radius: 15px;
+    margin: 0% 7%;
+  }
+  #title h2 {
+    font-weight: bolder;
+    color: #EFAD75;
+  }
+  #title img{
+    width: 50px;
+    height: 55px;
+  }
+  .descripcion{
+    padding-top: 20px;
+    margin: 0% 7%;
+  }
+  #game {
+    text-align: center;
+  }
+  #wordToGuess {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+  }
+  .guess {
+    font-size: 40px;
+    text-transform: uppercase;
+  }

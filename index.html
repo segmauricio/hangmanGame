@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hangman Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="title">
+    <img src="https://cdn-icons-png.flaticon.com/512/2230/2230987.png">
+    <h2>Juego de Ahorcado</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2230/2230987.png">
+  </div>
+  <div class="descripcion">
+    <p>Bienvenido al juego del ahorcado! Usted cuenta con 5 oportunidades para adivinar la palabra.
+      Presione una tecla de su teclado para descubrir la palabra
+      secreta</p>
+  </div>
+  <div id="container">
+    <div id="game">
+      <div id="wordToGuess"></div>
+      <div id="mensaje"></div>
+      <button type="button" class="btn btn-secondary btn-sm mt-4" id="reset"">RESET</button>
+    </div>
+  </div>
+  <script src=" script.js"></script>
+</body>
+</html>
